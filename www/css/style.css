@@ -1,0 +1,45 @@
+*{padding: 0;margin:0;}
+.ui-loader, span{display: none}
+.body2{display: none}
+.body{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background: url(../images/fondo.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.body center h1{
+	position: absolute;margin-left: auto;margin-right: auto;
+	left:0;right: 0;top:100px;opacity:0.6;
+	font-family: 'Indie Flower', cursive;color:#000;
+}
+.body form{
+	position: absolute;margin-left: auto;margin-right: auto;
+	left:0;right: 0;top:250px;
+}
+.body form input{
+	width:87%;height:55px;
+	border:0;background: #f2f2f2;box-shadow:0px 0px 20px rgba(0,0,0,0.3);outline: none;text-indent:45px;white-space:nowrap;text-overflow: ellipsis;font-family:helvetica, arial;font-size:15px;border-radius:5px;font-size:14px;
+}
+.icon1{z-index:1;position: absolute;top:20px;left:10%;opacity:0.8}
+.body center select{
+	margin-top: 20px;border:0;background:transparent;opacity:0.9;outline:none;color:#f2f2f2;
+}
+
+.body center footer{
+	position: absolute;margin-left: auto;margin-right: auto;
+	left:0;right: 0;bottom:0;width:100%;height:55px;border-top: groove 1px
+}
+.body center footer a{
+	position:relative;top:10px;text-decoration: none;color:#fff;opacity:0.8;
+}
+
+.body center button{
+	position: absolute;margin-left: auto;margin-right: auto;
+	left:0;right: 0;top:330px;color:#fff;opacity:0.5;width:87%;height:50px;background:#A4A4A4;color:#fff;border:0;}
+
+.body center .sesion{
+	color:#fff;opacity:0.8;text-decoration: none}

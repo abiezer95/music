@@ -1,0 +1,40 @@
+<style>
+/*search window 1*/
+.body form{
+	position: fixed;top:0;left:0;z-index:1;box-shadow:0px 0px 20px rgba(0,0,0,0.1)
+}
+.body form input{
+	width:100%;text-indent:50px;border-radius:0;box-shadow:0px 0px 20px rgba(0,0,0,0)
+}
+.icon1{left:5%;opacity:0.7}
+
+.body2{
+	position:fixed;top:0;left:0;width:100%;height:100%;
+	background:#f2f2f2;display: block;
+}
+.suggest{
+	position:relative;left:20px;opacity:0.6;font-family:helvetica,arial;font-size:13px
+}
+#pic{
+	width:40px;height:40px;border-radius:360px
+}
+
+.artistas{
+	position: relative;margin-top:10px
+}
+.artist{
+	position: relative;left:15px;margin-top:15px
+}
+.artist a{color:#000;text-decoration: none}
+.artist a b{opacity:0.7;font-size:13px}
+.artist a tt{
+	position: absolute;left:60px;top:10px;width:200px;font-size:9px;opacity:0.8;font-family:helvetica, arial
+}
+#verified{
+	position:absolute;font-size:30px
+}
+
+.artist button{
+	position:absolute;right:20px;margin-top:5px;background:#f2f2f2;border:0;border-radius:5px;box-shadow:0px 0px 20px rgba(0,0,0,0.2)
+}
+</style>
